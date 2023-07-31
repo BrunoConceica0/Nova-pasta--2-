@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.code-bg {
+  background: #d5e1ef;
+  padding: 20px 20px;
+}
+.code-container {
+  max-width: 567px;
+  margin: 100px auto;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 15px;
+  width: 90%;
+  height: 90%;
+}
+.code-container:hover {
+  width: 100%;
+  height: 150%;
+  transition: 0.3s;
+}
+.code-qr img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.subtitulo {
+  font: 700 2rem/1.525 "Poppins", sans-serif;
+  padding: 60px 0;
+  text-align: center;
+  color: #1e2e4c;
+}
+.texto {
+  font: 300 1.352rem/1.3 "Poppins", sans-serif;
+  text-align: center;
+  padding-bottom: 35px;
+  color: #7f8497;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 1.552rem;
+  }
+  .texto {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .subtitulo {
+    font-size: 1.152rem;
+    padding: 30px 0;
+  }
+  .texto {
+    font-size: 0.852rem;
+    padding-bottom: 17px;
+  }
+  
+}
